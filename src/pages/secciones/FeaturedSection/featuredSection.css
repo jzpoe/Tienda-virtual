@@ -1,0 +1,50 @@
+.featured {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    position: relative;
+    z-index: 10;
+
+    padding-bottom: 80px;
+}
+
+.featured-img img {
+width: 150px;
+height: 170px;
+}
+
+.maintenance {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 100px 10%;
+  gap: 60px;
+}
+
+.parrafo-left {
+  flex: 1;
+}   
+
+.parrafo-left h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.parrafo-left p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.container-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.container-img img {
+  width: 80%;
+  max-width: 250px;
+}

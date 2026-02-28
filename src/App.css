@@ -1,0 +1,13 @@
+#root {
+  
+    margin: 0;
+    padding: 0;
+}
+
+/* Recomendado: Reset CSS para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
